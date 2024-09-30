@@ -1,0 +1,20 @@
+.btn1,
+.btn2 {
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* this works too */
+/* button { */
+/*   font-size: 28px; */
+/*   font-family: Helvetica, 'Times New Roman', sans-serif; */
+/* } */
+
+.btn1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn2 {
+  background-color: hsl(60, 100%, 50%);
+}
