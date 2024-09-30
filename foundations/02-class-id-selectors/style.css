@@ -1,0 +1,22 @@
+.odd {
+  background-color: #f99;
+  font-family: verdana, dejavu sans, sans-serif;
+}
+
+.cooler {
+  font-size: 24px;
+}
+
+#two {
+  /* all three of them work the same */
+  color: rgb(0, 0, 255);
+  color: hsl(240, 100%, 50%);
+  color: #00f;
+  font-size: 36px;
+}
+
+#four {
+  background-color: hsl(120, 100%, 80%);
+  font-size: 24px;
+  font-weight: bold;
+}
