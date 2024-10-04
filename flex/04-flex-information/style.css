@@ -10,6 +10,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.item-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+/* the declarations inside the .item selector are redundant
+I only needed to do max-width: 200px;
+* and add text-align: center to body instead of all over the place*/
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 200px;
 }
 
 /* do not edit this footer */
@@ -23,4 +41,8 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.text {
+  text-align: center;
 }
